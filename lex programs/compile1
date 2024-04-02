@@ -1,0 +1,8 @@
+ lex pgm1.l
+gcc lex.yy.c -o pgm1 -lfl
+./pgm1 < input_1.txt
+
+
+ lex pgm2.l
+gcc lex.yy.c -o pgm2 -lfl
+./pgm2 < input_2.txt
